@@ -187,7 +187,7 @@ const params = new URLSearchParams(window.location.search);
 
 function login(){
   if(!nama){//jika belom login maka otomatis ke halaman login
-    window.location.href = "/html/login.html";
+    window.location.href = "html/login.html";
   }
   else{//jika sudah login maka keluar pop up, apakah yakin bener bener pengen log out?
     document.getElementById('logout').style.display="flex";
@@ -200,7 +200,7 @@ function batal(){//jika tidak jadi log out maka pop up hilang
   document.getElementById('logout').style.display="none";
 }
 function lanjut(){//jika memang mau log out maka diarahkan ke halaman login 
-  window.location.href= "/html/login.html";
+  window.location.href= "html/login.html";
 }
 
 //buat searcing 
@@ -218,7 +218,7 @@ function searchSteam() {
 //pembayaran
 
 function bayar(){
-    window.location.href = "/html/bayar.html";
+    window.location.href = "html/bayar.html";
 }
 
 //bagian button tataporfil
